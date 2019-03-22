@@ -1,0 +1,1116 @@
+@charset "utf-8";
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,td{
+	margin:0;
+	padding:0;
+    }
+body{
+    font-family:"微软雅黑"，Arial;
+}
+body,html{
+    height: 100%;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border:0;
+}
+a{
+	text-decoration:none;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    .swiper-wrapper{
+        .swiper1{
+            position: relative;
+            //display: none;
+            .swiper1-cont{
+                width: 335px;
+                height: 563px;
+                position: absolute;
+                top: 88px;
+                left: 20px;
+                .cont-img{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .swiper1-pink{
+                    width: 335px;
+                    height: 200px;
+                    position: absolute;
+                    top: 105px;
+                    img{
+                        width: 100%;
+                        height: 100%; 
+                    }
+                }
+                .swiper1-text{
+                    width: 308px;
+                    height: 70px;
+                    position: absolute;
+                    top: 135px;
+                    left: 20px;
+                    img{
+                        width: 100%;
+                        height: 100%; 
+                    }
+                }
+                .swiper1-line{
+                    width: 155px;
+                    height: 33px;
+                    position: absolute;
+                    top: 233px;
+                    left: 50px;
+                    transform: skewX(30deg);
+                    img{
+                        width: 100%;
+                        height: 100%; 
+                    }
+                }
+                .swiper1-triangle{
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    top: 495px;
+                    left: 153px;
+                    z-index: 10;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        animation: mymove 2s infinite;
+                        @keyframes mymove{
+                            0%{
+                                opacity: 0;
+                            }
+                            50%{
+                                opacity: 0.5;
+                            }
+                            100%{
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+            .swiper1-music{
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                top: 40px;
+                left: 320px;
+                z-index: 10;
+                border-radius: 20px;
+                background: url(../../images/str05.png) no-repeat;
+                background-size: 100% 100%;
+                animation: mysun  1s infinite linear;
+                @keyframes  mysun{
+                    0%{
+                        transform: rotate(0deg);
+                    }
+                    100%{
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        }
+
+
+        .swiper2{
+            position: relative;
+            background: #ffe100;
+            //display: none;
+            .swiper2-img{
+                position: absolute;
+                top: 20px;
+                z-index: 5;
+                img{
+                    width: 100%;
+                    height: 100%;   
+                }
+            }
+            .swiper2-title{
+                width: 200px;
+                height: 88px;
+                position: absolute;
+                top: 115px;
+                left: 80px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .cont2-img{
+                width: 250px;
+                height: 260px;
+                position: absolute;
+                top: 50px;
+                left: 60px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper2-text{
+                width: 105px;
+                height: 40px;
+                position: absolute;
+                top: 125px;
+                left: 150px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper2-green01{
+                width: 20px;
+                height: 30px;
+                position: absolute;
+                top: 300px;
+                left: 50px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper2-green02{
+                width: 20px;
+                height: 30px;
+                position: absolute;
+                top: 360px;
+                left: 50px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper2-green03{
+                width: 20px;
+                height: 30px;
+                position: absolute;
+                top: 410px;
+                left: 50px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper2-green04{
+                width: 20px;
+                height: 30px;
+                position: absolute;
+                top: 470px;
+                left: 50px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper2-purpul01{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 290px;
+                left: 105px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper2-box01{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 295px;
+                left: 155px;
+                z-index: 10;
+                a{
+                    color: rgb(241, 192, 10);
+                    font-size: 15px; 
+                }
+            }
+            
+            .swiper2-purpul02{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 350px;
+                left: 105px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .swiper2-box02{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 355px;
+                left: 155px;
+                z-index: 10;
+                a{
+                    color: rgb(241, 192, 10);
+                    font-size: 15px; 
+                }
+            }
+
+            .swiper2-purpul03{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 410px;
+                left: 105px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper2-box03{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 415px;
+                left: 155px;
+                z-index: 10;
+                a{
+                    color: rgb(241, 192, 10);
+                    font-size: 15px; 
+                }
+            }
+            .swiper2-purpul04{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 470px;
+                left: 105px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .swiper2-box04{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 475px;
+                left: 155px;
+                z-index: 10;
+                a{
+                    color: rgb(241, 192, 10);
+                    font-size: 15px; 
+                }
+            }
+            .swiper2-triangle{
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                top: 590px;
+                left: 170px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    animation: mymove 2s infinite;
+                    @keyframes mymove{
+                        0%{
+                            opacity: 0;
+                        }
+                        50%{
+                            opacity: 0.5;
+                        }
+                        100%{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .swiper2-music{
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                top: 40px;
+                left: 320px;
+                z-index: 10;
+                border-radius: 20px;
+                background: url(../../images/str05.png) no-repeat;
+                background-size: 100% 100%;
+                animation: mysun  1s infinite linear;
+                @keyframes  mysun{
+                    0%{
+                        transform: rotate(0deg);
+                    }
+                    100%{
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        }
+
+
+
+
+
+        .swiper3{
+            position: relative;
+            background: #ffe100;
+            //display: none;
+            .swiper3-img{
+                position: absolute;
+                top: 20px;
+                z-index: 5;
+                img{
+                    width: 100%;
+                    height: 100%;   
+                }
+            }
+            .swiper3-sofa{
+                width: 170px;
+                height: 95px;
+                position: absolute;
+                top: 270px;
+                left: 160px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper3-text{
+                width: 198px;
+                height: 85px;
+                position: absolute;
+                top: 210px;
+                left: 25px;
+                z-index: 10;
+                color: white;
+                h3{
+                    font-size: 18px;
+                    font-weight: 200;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+            .swiper3-pic{
+                width: 198px;
+                height: 85px;
+                position: absolute;
+                top: 270px;
+                left: 25px;
+                z-index: 10;
+                color: white;
+                h3{
+                    font-size: 16px;
+                    font-weight: 200;
+                    color: rgb(165, 32, 0);
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+            .swiper3-line{
+                width: 100px;
+                height: 0.5px;
+                position: absolute;
+                top: 262px;
+                left: 21px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;   
+                }
+            }
+            .swiper3-purpul{
+                width: 95px;
+                height: 25px;
+                position: absolute;
+                top: 320px;
+                left: 38px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper3-link{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 320px;
+                left: 60px;
+                z-index: 10;
+                a{
+                    font-size: 12px;
+                    color: white; 
+                }
+            }
+            .cont3-img{
+                width: 245px;
+                height: 420px;
+                position: absolute;
+                top: 145px;
+                left: 100px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper3-triangle{
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                top: 590px;
+                left: 170px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    animation: mymove 2s infinite;
+                    @keyframes mymove{
+                        0%{
+                            opacity: 0;
+                        }
+                        50%{
+                            opacity: 0.5;
+                        }
+                        100%{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .swiper3-music{
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                top: 40px;
+                left: 320px;
+                z-index: 10;
+                border-radius: 20px;
+                background: url(../../images/str05.png) no-repeat;
+                background-size: 100% 100%;
+                animation: mysun  1s infinite linear;
+                @keyframes  mysun{
+                    0%{
+                        transform: rotate(0deg);
+                    }
+                    100%{
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        }
+
+
+
+        .swiper4{
+            position: relative;
+            background: #ffe100;
+            //display: none;
+            .swiper4-img{
+                position: absolute;
+                top: 20px;
+                z-index: 5;
+                img{
+                    width: 100%;
+                    height: 100%;   
+                }
+            }
+            .swiper4-chest{
+                width: 140px;
+                height: 140px;
+                position: absolute;
+                top: 190px;
+                left: 42px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper4-text{
+                width: 130px;
+                height: 85px;
+                position: absolute;
+                top: 290px;
+                left: 190px;
+                z-index: 10;
+                color: white;
+                h3{
+                    font-size: 16px;
+                    font-weight: 200;
+                }
+                p{
+                    font-size: 11px;
+                }
+            }
+            .swiper4-pic{
+                width: 195px;
+                height: 85px;
+                position: absolute;
+                top: 387px;
+                left: 190px;
+                z-index: 10;
+                color: white;
+                h3{
+                    font-size: 16px;
+                    font-weight: 200;
+                    color: rgb(165, 32, 0);
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+            .swiper4-line{
+                width: 100px;
+                height: 0.5px;
+                position: absolute;
+                top: 380px;
+                left: 186px;
+                z-index: 11;
+                img{
+                    width: 100%;
+                    height: 100%;   
+                }
+            }
+            .swiper4-link{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 430px;
+                left: 216px;
+                z-index: 11;
+                a{
+                    font-size: 12px;
+                    color: white; 
+                }
+            }
+            .swiper4-purpul{
+                width: 95px;
+                height: 25px;
+                position: absolute;
+                top: 430px;
+                left: 195px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .cont4-img{
+                width: 255px;
+                height: 422px;
+                position: absolute;
+                top: 100px;
+                left: 13px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper4-triangle{
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                top: 590px;
+                left: 170px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    animation: mymove 2s infinite;
+                    @keyframes mymove{
+                        0%{
+                            opacity: 0;
+                        }
+                        50%{
+                            opacity: 0.5;
+                        }
+                        100%{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .swiper4-music{
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                top: 40px;
+                left: 320px;
+                z-index: 10;
+                border-radius: 20px;
+                background: url(../../images/str05.png) no-repeat;
+                background-size: 100% 100%;
+                animation: mysun  1s infinite linear;
+                @keyframes  mysun{
+                    0%{
+                        transform: rotate(0deg);
+                    }
+                    100%{
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        }
+
+
+        .swiper5{
+            position: relative;
+            background: #ffe100;
+            //display: none;
+            .swiper5-img{
+                position: absolute;
+                top: 20px;
+                z-index: 5;
+                img{
+                    width: 100%;
+                    height: 100%;   
+                }
+            }
+            .swiper5-chair{
+                width: 100px;
+                height: 200px;
+                position: absolute;
+                top: 97px;
+                left: 132px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .cont5-img{
+                width: 280px;
+                height: 425px;
+                position: absolute;
+                top: 32px;
+                left: 23px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper5-text{
+                width: 211px;
+                height: 85px;
+                position: absolute;
+                top: 380px;
+                left: 110px;
+                z-index: 10;
+                color: white;
+                h3{
+                    font-size: 16px;
+                    font-weight: 200;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+            .swiper5-pic{
+                width: 195px;
+                height: 85px;
+                position: absolute;
+                top: 460px;
+                left: 112px;
+                z-index: 10;
+                color: white;
+                h3{
+                    font-size: 16px;
+                    font-weight: 200;
+                    color: rgb(165, 32, 0);
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+            .swiper5-purpul{
+                width: 95px;
+                height: 25px;
+                position: absolute;
+                top: 512px;
+                left: 142px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper5-link{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 512px;
+                left: 165px;
+                z-index: 11;
+                a{
+                    font-size: 12px;
+                    color: white; 
+                }
+            }
+            .swiper5-triangle{
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                top: 590px;
+                left: 170px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    animation: mymove 2s infinite;
+                    @keyframes mymove{
+                        0%{
+                            opacity: 0;
+                        }
+                        50%{
+                            opacity: 0.5;
+                        }
+                        100%{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+             .swiper5-music{
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                top: 40px;
+                left: 320px;
+                z-index: 10;
+                border-radius: 20px;
+                background: url(../../images/str05.png) no-repeat;
+                background-size: 100% 100%;
+                animation: mysun  1s infinite linear;
+                @keyframes  mysun{
+                    0%{
+                        transform: rotate(0deg);
+                    }
+                    100%{
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        } 
+        
+        .swiper6{
+            position: relative;
+            background: #ffe100;
+            //display: none;
+            .swiper6-img{
+                position: absolute;
+                top: 20px;
+                z-index: 5;
+                img{
+                    width: 100%;
+                    height: 100%;   
+                }
+            }
+            .swiper6-gird{
+                width: 95px;
+                height: 200px;
+                position: absolute;
+                top: 245px;
+                left: 60px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .cont6-img{
+                width: 180px;
+                height: 500px;
+                position: absolute;
+                top: 150px;
+                left: 15px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper6-text{
+                width: 145px;
+                height: 85px;
+                position: absolute;
+                top: 143px;
+                left: 190px;
+                z-index: 10;
+                color: white;
+                h3{
+                    font-size: 16px;
+                    font-weight: 200;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+            .swiper6-pic{
+                width: 195px;
+                height: 85px;
+                position: absolute;
+                top: 240px;
+                left: 190px;
+                z-index: 10;
+                color: white;
+                h3{
+                    font-size: 16px;
+                    font-weight: 200;
+                    color: rgb(165, 32, 0);
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+            .swiper6-line{
+                width: 100px;
+                height: 0.5px;
+                position: absolute;
+                top: 233px;
+                left: 190px;
+                z-index: 11;
+                img{
+                    width: 100%;
+                    height: 100%;   
+                }
+            }
+            .swiper6-purpul{
+                width: 95px;
+                height: 25px;
+                position: absolute;
+                top: 290px;
+                left: 200px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .swiper6-link{
+                width: 170px;
+                height: 35px;
+                position: absolute;
+                top: 290px;
+                left: 226px;
+                z-index: 11;
+                a{
+                    font-size: 12px;
+                    color: white; 
+                }
+            }
+            .swiper6-triangle{
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                top: 590px;
+                left: 170px;
+                z-index: 10;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    animation: mymove 2s infinite;
+                    @keyframes mymove{
+                        0%{
+                            opacity: 0;
+                        }
+                        50%{
+                            opacity: 0.5;
+                        }
+                        100%{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            .swiper6-music{
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                top: 40px;
+                left: 320px;
+                z-index: 10;
+                border-radius: 20px;
+                background: url(../../images/str05.png) no-repeat;
+                background-size: 100% 100%;
+                animation: mysun  1s infinite linear;
+                @keyframes  mysun{
+                    0%{
+                        transform: rotate(0deg);
+                    }
+                    100%{
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        } 
+        
+        .swiper7{
+            position: relative;
+            //display: none;
+            .swiper7-img{
+                width: 100%;
+                height: 100%;
+            }
+            .swiper7-cont{
+                width: 335px;
+                height: 563px;
+                position: absolute;
+                top: 88px;
+                left: 20px;
+                .cont-img{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .swiper7-title{
+                    width: 235px;
+                    height: 88px;
+                    position: absolute;
+                    top: 115px;
+                    left: 50px;
+                    z-index: 10;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .swiper7-text{
+                    width: 135px;
+                    height: 40px;
+                    position: absolute;
+                    top: 125px;
+                    left: 110px;
+                    z-index: 10;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .swiper7-big{
+                    width: 167px;
+                    height: 167px;
+                    position: absolute;
+                    top: 190px;
+                    left: 86px;
+                    z-index: 10;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .swiper7-small{
+                    width: 75px;
+                    height: 75px;
+                    position: absolute;
+                    top: 235px;
+                    left: 132px;
+                    z-index: 10;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .swiper7-time{
+                    width: 225px;
+                    height: 20px;
+                    position: absolute;
+                    top: 367px;
+                    left: 63px;
+                    z-index: 10;
+                    background: #f1d36f;
+                    border-radius: 10px;
+                    text-align: center;
+                    line-height: 20px;
+                    opacity: .8;
+                    p{
+                        font-size: 10px;
+                        color: black;
+                    }
+                }
+                .swiper7-shop{
+                    width: 80px;
+                    height: 20px;
+                    position: absolute;
+                    top: 426px;
+                    left: 127px;
+                    z-index: 10;
+                    background: #ebbd25;
+                    border-radius: 10px;
+                    text-align: center;
+                    line-height: 20px;
+                    a{
+                        font-size: 10px;
+                        color: white;
+                        display: block;
+                    }
+                }
+                .swiper7-triangle{
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    top: 495px;
+                    left: 153px;
+                    z-index: 10;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        animation: mymove 2s infinite;
+                        @keyframes mymove{
+                            0%{
+                                opacity: 0;
+                            }
+                            50%{
+                                opacity: 0.5;
+                            }
+                            100%{
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            } 
+            .swiper7-music{
+                width: 25px;
+                height: 25px;
+                position: absolute;
+                top: 40px;
+                left: 320px;
+                z-index: 10;
+                border-radius: 20px;
+                background: url(../../images/str05.png) no-repeat;
+                background-size: 100% 100%;
+                animation: mysun  1s infinite linear;
+                @keyframes  mysun{
+                    0%{
+                        transform: rotate(0deg);
+                    }
+                    100%{
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        }      
+    }
+}
+
